@@ -1,32 +1,26 @@
 [
     {
         "id": "0",
-        "question": "Nuoret on velvoitettava jatko-opintoihin tai työharjoitteluun suoraan peruskoulun jälkeen.", 
-        "name": "Bitcoin"
+        "question": "Nuoret on velvoitettava jatko-opintoihin tai työharjoitteluun suoraan peruskoulun jälkeen." 
     }, 
     {
         "id": "1",
-        "question": "Kuntien tulee tarjota lasten päivähoidon varhaiskasvatus ilmaiseksi kaikille lapsille.", 
-        "name": "Ethereum"
+        "question": "Kuntien tulee tarjota lasten päivähoidon varhaiskasvatus ilmaiseksi kaikille lapsille." 
     },
     {
         "id": "2",
-        "question": "Kouluissa pitää olla vähintään kerran viikossa kasvisruokapäivä.", 
-        "name": "Ethereum"
+        "question": "Kouluissa pitää olla vähintään kerran viikossa kasvisruokapäivä." 
     },
     {
         "id": "3",
-        "question": "Kunnan tulee tukea kulttuuria antamalla tilojaan ilmaiseksi yhdistysten käyttöön.", 
-        "name": "Ethereum"
+        "question": "Kunnan tulee tukea kulttuuria antamalla tilojaan ilmaiseksi yhdistysten käyttöön." 
     },
     {
         "id": "4",
-        "question": "Koulujen opetusryhmät ovat jo niin isoja, että oppiminen häiriintyy.", 
-        "name": "Ethereum"
+        "question": "Koulujen opetusryhmät ovat jo niin isoja, että oppiminen häiriintyy." 
     },
     {
         "id": "5",
-        "question": "Vanhuksilla on oltava oikeus palvelukotipaikkaan, koska nykyinen kotihoito ei ole riittävää.", 
-        "name": "Ethereum"
+        "question": "Vanhuksilla on oltava oikeus palvelukotipaikkaan, koska nykyinen kotihoito ei ole riittävää." 
     }
 ]
