@@ -1,0 +1,41 @@
+<!-- views/pages/index.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include ../partials/head %>
+</head>
+<body class="container">
+
+<header>
+    <% include ../partials/header %>
+</header>
+
+<main>
+    <div class="jumbotron" id="myElement">
+    	<div class="col-md-7 col-md-offset-2">
+        <h2 style="text-align:center;"><%= obj[num].question %></h2>
+        </div>
+        <div class="col-md-1 col-md-offset-6" style="text-align:center; margin-top: 50px;">
+        <img src="img/13-512.png" style="height:100px;">
+        </div>
+    </div>
+    <p style="text-align:center;">Swipe left to disagree, right to agree</p>
+</main>
+<script>
+
+var myElement = document.getElementById('myElement');
+
+var hammer = new Hammer(myElement);
+
+var mc = new Hammer(myElement);
+
+mc.on("panleft panright tap press", function(ev) {
+   window.location.href = "/";
+});
+
+</script>
+
+</body>
+</html>
+
