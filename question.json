@@ -1,26 +1,74 @@
 [
     {
-        "id": "0",
-        "question": "Nuoret on velvoitettava jatko-opintoihin tai työharjoitteluun suoraan peruskoulun jälkeen." 
+        "id": "1",
+        "question": "Suomessa on liian helppo elää sosiaaliturvan varassa." 
     }, 
     {
-        "id": "1",
-        "question": "Kuntien tulee tarjota lasten päivähoidon varhaiskasvatus ilmaiseksi kaikille lapsille." 
-    },
-    {
         "id": "2",
-        "question": "Kouluissa pitää olla vähintään kerran viikossa kasvisruokapäivä." 
+        "question": "Suomessa on siirryttävä perustuloon joka korvaisi nykyisen sosiaaliturvan vähimmäistason." 
     },
     {
         "id": "3",
-        "question": "Kunnan tulee tukea kulttuuria antamalla tilojaan ilmaiseksi yhdistysten käyttöön." 
+        "question": "Työntekijälle on turvattava lailla minimityöaika." 
     },
     {
         "id": "4",
-        "question": "Koulujen opetusryhmät ovat jo niin isoja, että oppiminen häiriintyy." 
+        "question": "Suomen pitäisi liittyä Natoon." 
     },
     {
         "id": "5",
-        "question": "Vanhuksilla on oltava oikeus palvelukotipaikkaan, koska nykyinen kotihoito ei ole riittävää." 
+        "question": "Suomeen tarvitaan enemmän poliiseja." 
+    },
+    {
+        "id": "6",
+        "question": "Maahanmuuttoa Suomeen on rajoitettava nykyisestä." 
+    },
+    {
+        "id": "7",
+        "question": "Suomella ei ole varaa nykyisiin sosiaali- ja terveyspalveluihin." 
+    },
+    {
+        "id": "8",
+        "question": "Parantumattomasti sairaalla on oltava oikeus avustettuun kuolemaan." 
+    },
+    {
+        "id": "9",
+        "question": "On aika luopua ajatuksesta, että koko Suomi on pidettävä asuttuna." 
+    },
+    {
+        "id": "10",
+        "question": "Geenimuunneltu ruoka on turvallista ihmiselle ja ympäristölle." 
+    },
+    {
+        "id": "11",
+        "question": "Ilmastonmuutoksen torjuminen on Suomen kilpailukykyä tärkeämpää." 
+    },
+    {
+        "id": "12",
+        "question": "Peruskoulun luokkien koko on rajattava lailla esimerkiksi 20 oppilaaseen." 
+    },
+    {
+        "id": "13",
+        "question": "Suomeen tarvitaan lisää ydinvoimaa." 
+    },
+    {
+        "id": "14",
+        "question": "Ruotsin kielen opiskelu pitäisi muuttaa vapaaehtoiseksi." 
+    },
+    {
+        "id": "15",
+        "question": "Suomi pärjäisi paremmin euroalueen ulkopuolella." 
+    },
+    {
+        "id": "16",
+        "question": "Mietojen viinien ja vahvojen oluiden myynti ruokakaupassa pitäisi sallia." 
+    },
+    {
+        "id": "17",
+        "question": "On tärkeää, että koko Suomi pidetään asutettuna." 
+    },
+    {
+        "id": "18",
+        "question": "Venäjä on uhka Suomelle." 
     }
 ]

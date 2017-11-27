@@ -16,11 +16,9 @@
     	<div class="col-md-7 col-md-offset-2">
         <h2 style="text-align:center;"><%= obj[num].question %></h2>
         </div>
-        <div class="col-md-1 col-md-offset-6" style="text-align:center; margin-top: 50px;">
-        <img src="img/13-512.png" style="height:100px;">
-        </div>
+
     </div>
-    <p style="text-align:center;">Liu'uta oikealle ollaksesi samaa mieltä.</p>
+    <p style="text-align:center;">Pyyhkäise oikealle jos olet samaa mieltä, vasemmalle jos olet eri mieltä. Klikkaa jos haluat ohittaa kysymyksen.</p>
 </main>
 <footer>
     <% include ../partials/footer %>
@@ -33,7 +31,7 @@ var hammer = new Hammer(myElement);
 
 var mc = new Hammer(myElement);
 
-mc.on("panleft panright", function(ev) {
+mc.on("panleft panright tap", function(ev) {
    window.location.href = "/";
 });
 

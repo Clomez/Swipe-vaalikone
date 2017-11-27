@@ -19,11 +19,11 @@ fs.readFile('question.json', 'utf8', function (err, data) {
 
 // PAGES
 app.get('/', function(req, res) {
-	var num = Math.floor((Math.random() * 5) + 1);
+	   var num = Math.floor((Math.random() * 17) + 1);
     res.render('pages/index', {obj:obj, num:num} );
 });
 
-// about page 
+// about page
 app.get('/about', function(req, res) {
     res.render('pages/about');
 });
@@ -31,18 +31,17 @@ app.get('/about', function(req, res) {
 
 //READ JSON DATA ONLINE
 
-var url = "https://api.coinmarketcap.com/v1/ticker/"
+// var url = "https://api.coinmarketcap.com/v1/ticker/"
 
-request({
-    url: url,
-    json: true
-}, function (error, response, body) {
+//request({
+//    url: url,
+//    json: true
+//}, function (error, response, body) {
 
-    if (!error && response.statusCode === 200) {
-		question = body;
-    }
-})
+//    if (!error && response.statusCode === 200) {
+//		question = body;
+//    }
+// })
 
 app.listen(8080);
 console.log('8080 is the magic port');
-
